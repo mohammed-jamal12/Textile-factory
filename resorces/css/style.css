@@ -1,0 +1,164 @@
+*{margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+
+}
+html{
+    color: #555;
+    font-size: 350%;
+    
+        font-family: "Cairo", sans-serif;
+    font: weight 300;
+    font-size:20px ;
+  font-weight: bold;
+}
+
+
+
+
+.row{
+ max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+
+header{
+    background-image:linear-gradient(rgba(255,255,255,0.25),rgba( 255,255,255,0.25)), url(../img/img1.jpg);
+    background-size: cover;
+ height: 100vh;   
+}
+
+
+
+h1{margin-top:0;
+    margin-bottom: 30px;
+    font-size: 350%;
+    word-spacing: 10px;
+}
+
+
+
+.hero-text-box{
+    position:absolute;
+    width:1140px ;
+    top:40%;
+    left:50% ;
+    transform:translate(-50%,50%);
+}
+
+
+
+.btn{
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition:background 0.3s ;
+}
+
+
+
+.btn-full{
+    background-color:#ffda79;
+    border:2px solid white;
+    color: #555;
+}
+
+
+
+
+.btn-border{color: #555;
+    background-color: #ffda79;
+    border:2px solid white;
+    margin-right: 30px ;
+
+}
+
+
+
+
+
+.btn-full:active,
+.btn-full:hover{
+    background-color: #fece00;
+}
+
+
+
+
+
+
+
+.btn-border:active,
+.btn-border:hover{background-color: #fece00;}
+
+
+
+
+
+.logo{
+    width: 90px;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+}
+
+
+
+
+.main-hav{
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+.main-hav li {
+    display:inline-block ;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-bottom:5px  ;
+    border-radius: 20px;
+    transition:background 0.5s ;
+
+
+    
+    /* border-bottom:1px solid transparent;
+    transition:border-bottom 0.3s; */
+    
+}
+
+
+
+
+
+.main-hav li a:link,
+.main-hav li a:visited{
+    color: #555;
+    background-color: #ffda79;
+    border:2px solid rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px;
+   }
+
+
+
+   .main-hav li a:hover,
+   .main-hav li a:active{
+    background-color: #fece00 ;
+    /* border-bottom:1px solid #fece00 ; */
+
+
+    }
+.aaa{    transition:background 0.5s ;
+
+
+}
+   
